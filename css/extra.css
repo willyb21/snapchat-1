@@ -1,0 +1,299 @@
+body, html {
+	height: 100%;
+}
+img {
+  max-width: 100%;
+  border-radius: 3px;border-radius: 3px;
+}
+body {
+	padding: 50px 0;
+	background: url('/imgs/bg.png') 5px 55px;
+}
+.gg {
+  height: 35px;
+  display: inline-block;
+  width: 50px;
+}
+div#___plusone_0 {
+  height: 35px!important;
+}
+#___plusone_0 iframe {
+  height: 35px!important;
+}
+.form-horizontal {
+  margin-top: 10px;  
+  margin-bottom: 10px;
+}
+.form-horizontal:after {
+  content: " ";
+display: table;
+}
+.btn-file {
+  position: relative;
+}
+.ad {
+  margin-bottom: 25px;
+}
+.btn-file input[type=file] {
+position: absolute;
+top: 0;
+right: 0;
+min-width: 100%;
+min-height: 100%;
+font-size: 0px;
+text-align: right;
+filter: alpha(opacity=0);
+opacity: 0;
+background: red;
+cursor: inherit;
+display: block;
+}
+
+#snap-loading, #story-loading {
+  position: absolute;
+  left: 50%;
+  margin-left: -16px;
+  top: 4px;
+}
+#snap-loading img {
+  display: inline;
+}
+.navbar:after {
+background-image: url("/imgs/bottom.png");
+background-repeat: repeat-x;
+background-size: 1px 4px;
+background-position: 0 0;
+bottom: -4px;
+content: '';
+height: 4px;
+left: 0;
+position: absolute;
+right: 0;
+width: 100%;
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus {
+  box-shadow: none!important;
+  -moz-box-shadow: none!important;
+  -webkit-box-shadow: none!important;
+}
+.panel-rt {
+  margin-top: 5px;
+
+}
+span.status {
+  min-width: 20px;
+  max-width: 320px;
+  min-height: 20px;
+  max-height: 20px;
+  border-radius: 3px;
+  border: 3px transparent solid;
+  background-color: transparent;
+  display: inline-block;
+  float: left;
+  position: relative;
+  margin-right: 5px;
+}
+span.d {
+  background-color: #ea2753;
+}
+
+span.o {
+  border: 3px #ea2753 solid;
+}
+span.dv {
+  background-color: #a75ca1;
+}
+
+span.ov {
+  border: 3px #a75ca1 solid;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+video {
+  max-width: 100%;
+  border-radius: 3px;
+}
+.form-direct {
+  margin-top: 5px;
+}
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 500px;
+  }
+}
+
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+/*
+* 
+*/
+
+#btnLogin{
+  margin-top: 10px;
+}
+#twitter-widget-0 {
+  width: 82px!important;
+height: 35px!important;
+}
+button#btnLogin[disabled]  {
+  opacity: 1;
+}
+.wrap {
+  padding-top: 40px;
+}
